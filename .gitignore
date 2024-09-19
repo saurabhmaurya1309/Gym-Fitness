@@ -1,0 +1,82 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+venv/
+ENV/
+env/
+env.bak/
+env.bak/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Media
+media/
+staticfiles/
+static/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+share/python-wheels/
+__pypackages__/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+.Python
+venv/
+ENV/
+env/
+
+# Test result files
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.pytest_cache/
+.coverage
+nosetests.xml
+htmlcov/
+
+# Environments
+.env
+.env.*
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Jupyter Notebook
+.ipynb_checkpoints
